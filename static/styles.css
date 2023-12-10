@@ -1,0 +1,62 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#map-container {
+    height: 100%;
+}
+
+#map {
+    height: 100%;
+}
+
+#form-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    z-index: 1000;
+}
+
+#form-container input[type="text"],
+#form-container button {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#form-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#form-container button:hover {
+    background-color: #0056b3;
+}
+
+#loading-indicator {
+    margin-top: 10px;
+    text-align: center;
+    display: none;
+    /* Hidden by default */
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
